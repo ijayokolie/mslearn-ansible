@@ -12,6 +12,7 @@ steps:
     playbookSourceRemoteMachine: 'agentMachine'
     playbookRootRemoteMachine: '$(System.DefaultWorkingDirectory)'
     playbookPathLinkedArtifactOnRemoteMachine: 'users.yml'
+    playbookPathOnAgentMachine: ""
     inventoriesRemoteMachine: 'file'
     inventoryFileSourceRemoteMachine: 'agentMachine'
     inventoryFileLinkedArtifactOnRemoteMachine: 'azure_rm.yml'
